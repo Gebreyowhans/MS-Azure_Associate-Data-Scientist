@@ -11,7 +11,7 @@ from sklearn.metrics import roc_curve
 
 # load the diabetes dataset
 print("Loading Data...")
-diabetes = pd.read_csv('../data/diabetes.csv')
+diabetes = pd.read_csv('./diabetes.csv')
 
 # separate features and labels
 X, y = diabetes[['Pregnancies', 'PlasmaGlucose', 'DiastolicBloodPressure', 'TricepsThickness',
